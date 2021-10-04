@@ -127,8 +127,8 @@ async def start(client, message):
         return
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/VCPlayerBot')
+            InlineKeyboardButton('📥 Movies Channel', url='https://t.me/tentkotta4g'),
+            InlineKeyboardButton('👉 Movies Request', url='https://t.me/tentkotta4k_requests')
         ],
         [
             InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help_main'),
