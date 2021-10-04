@@ -182,15 +182,15 @@ async def show_help(client, message):
         disable_web_page_preview=True
         )
     #await delete_messages([message])
-@Client.on_message(filters.command(['repo', f"repo@{Config.BOT_USERNAME}"]))
-async def repo_(client, message):
+@Client.on_message(filters.command(['admin', f"admin@{Config.BOT_USERNAME}"]))
+async def admin_(client, message):
     buttons = [
         [
-            InlineKeyboardButton('🧩 Repository', url='https://github.com/subinps/VCPlayerBot'),
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),     
+            InlineKeyboardButton('📥 Movies Channel', url='https://t.me/tentkotta4g'),
+            InlineKeyboardButton('👉 Movies Request', url='https://t.me/tentkotta4k_requests'),     
         ],
         [
-            InlineKeyboardButton("🎞 How to Deploy", url='https://youtu.be/mnWgZMrNe_0'),
+            InlineKeyboardButton("bot channel", url='https://t.me/v_bots'),
             InlineKeyboardButton('🗑 Close', callback_data='close'),
         ]
     ]
